@@ -1,0 +1,29 @@
+Mitigation Plan for Username Generator Microservice
+For which teammate did you implement "Microservice A"? I implemented the Username Generator microservice for Amity's music library application.
+What is the current status of the microservice? The microservice is complete and fully functional. It can generate music-themed usernames based on user information such as first name, last name, and favorite genre.
+If the microservice isn't done, which parts aren't done and when will they be done? The microservice is fully implemented and ready for integration.
+How is your teammate going to access your microservice? Amity can access the microservice through GitHub at: https://github.com/Reynaud702/username-generator-microservice
+To run the microservice locally:
+Clone the repository
+Create and activate a Python virtual environment:
+python3 -m venv venvsource venv/bin/activate
+
+
+Install dependencies: pip install flask requests
+Run the service: python username_generator.py
+The service will be available at http://localhost:5000
+If your teammate cannot access/call YOUR microservice, what should they do? If Amity encounters issues accessing or calling the microservice:
+Check that Python 3 is installed and the virtual environment is activated
+Verify that the microservice is running on port 5000
+Ensure the required libraries (Flask, requests) are installed
+Contact me via email at hunterr@oregonstate.edu or from teams for assistance
+I will be available to help during the following times:
+Weekdays: 4:00 PM - 9:00 PM PST
+Weekends: 10:00 AM - 6:00 PM PST
+If your teammate cannot access/call your microservice, by when do they need to tell you? Amity should notify me of any issues by May 26, 2025, which is one week before the final integration deadline. This will give us sufficient time to troubleshoot and resolve any issues.
+Is there anything else your teammate needs to know?
+The microservice requires Python 3.6+ to run
+The default port is 5000, but this can be modified in the code if needed
+If Amity needs additional username generation options or formats, I can implement those with advance notice
+As a backup plan, if network connectivity becomes an issue, I can provide a standalone Python module version of the username generator that can be directly imported into their project
+
